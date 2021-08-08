@@ -2,6 +2,7 @@ import React from "react";
 import {
   AiFillGithub,
   AiFillLinkedin,
+  AiFillMediumCircle,
   AiFillTwitterCircle,
 } from "react-icons/ai";
 
@@ -46,6 +47,9 @@ const Footer = () => {
           </SocialIcons>
           <SocialIcons href="https://twitter.com/RacketyWater7">
             <AiFillTwitterCircle size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://medium.com/@haseebbajwa1">
+            <AiFillMediumCircle size="3rem" />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>

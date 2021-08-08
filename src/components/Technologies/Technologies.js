@@ -44,16 +44,6 @@ const Technologies = () => (
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      <ListItem>
-        <DiZend size="3rem" />
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            tools like Figma
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
     </List>
   </Section>
 );

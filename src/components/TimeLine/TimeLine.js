@@ -67,9 +67,10 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am a professtional web developer. I build web applications and solve
-        web apps related issues. I write clean code following web apps
-        standards.
+        I started learning programming back in around 2017 with C++. I learned
+        many languages during my education and overall. I have an inquisitive
+        mind to learn new technologies. Currently, I am a professional
+        JavaScript developer; and my side hustles include article writing.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -103,7 +104,6 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButton>
-      <SectionDivider />
     </Section>
   );
 };

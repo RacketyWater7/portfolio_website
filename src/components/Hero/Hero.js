@@ -20,7 +20,9 @@ const Hero = (props) => (
         web apps related issues. I write clean code following web apps
         standards.
       </SectionText>
-      <Button onClick={() => (window.location = "https://google.com")}>
+      <Button
+        onClick={() => (window.location = "mailto:haseebbajwa1@outlook.com")}
+      >
         Learn More
       </Button>
     </LeftSection>
