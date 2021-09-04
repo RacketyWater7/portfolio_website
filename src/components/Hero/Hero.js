@@ -21,7 +21,7 @@ const Hero = (props) => (
         standards.
       </SectionText>
       <Button
-        onClick={() => (window.location = "mailto:haseebbajwa1@outlook.com")}
+        onClick={() => (window.location = "mailto:haseebudeen@outlook.com")}
       >
         Learn More
       </Button>

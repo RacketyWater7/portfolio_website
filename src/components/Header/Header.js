@@ -56,13 +56,13 @@ const Header = () => (
       <SocialIcons href="https://github.com/RacketyWater7">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://linkedin.com/in/haseeb-udeen-03b11a48">
+      <SocialIcons href="https://linkedin.com/in/haseebudeen">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://twitter.com/RacketyWater7">
+      <SocialIcons href="https://twitter.com/haseebudeen">
         <AiFillTwitterCircle size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://medium.com/@haseebbajwa1">
+      <SocialIcons href="https://medium.com/@haseebudeen">
         <AiFillMediumCircle size="3rem" />
       </SocialIcons>
     </Div3>
