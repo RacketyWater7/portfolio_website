@@ -74,6 +74,6 @@ export const TimeLineData = [
   },
   {
     year: 2021,
-    text: "Working as a React/Next.JS developer and started writing technical articles",
+    text: "Working as a React/Next.JS developer and writing technical articles",
   },
 ];
