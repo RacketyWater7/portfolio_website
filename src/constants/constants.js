@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: "Krypto Transfer",
+    description:
+      "Krypt is a web3.0 project built for sending the crypto currency accross the globe to others accounts using the blockchain. ",
+    image: "/images/crypt.png",
+    tags: ["Web3", "React", "Tailwind", "Hardhat"],
+    source: "https://github.com/RacketyWater7/krypt-web3",
+    visit: "https://krypt474.netlify.app/",
+    id: 0,
+  },
+  {
     title: "MERN Memories",
     description:
       "This is a Full Stack MERN Application made using React, Node.js, Express & MongoDB. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
@@ -7,7 +17,7 @@ export const projects = [
     tags: ["Mongo", "Express", "React", "Node"],
     source: "https://github.com/RacketyWater7/mern-memories-project",
     visit: "https://memories-mern-projectt.netlify.app/",
-    id: 0,
+    id: 1,
   },
   {
     title: "DJ-Events App",
@@ -17,7 +27,7 @@ export const projects = [
     tags: ["Next.js", "Strapi", "Cloudinary"],
     source: "https://github.com/RacketyWater7/it-events-frontend",
     visit: "https://dj-eventsfrontend.vercel.app/",
-    id: 1,
+    id: 2,
   },
   {
     title: "DevSpace Blog",
@@ -27,7 +37,7 @@ export const projects = [
     tags: ["Next.js", "Markdown", "Tailwind"],
     source: "https://github.com/RacketyWater7/devspace-blog",
     visit: "https://devspace-blog-5ckircz3r-racketywater7.vercel.app/",
-    id: 2,
+    id: 3,
   },
   {
     title: "Capture Business Profile",
@@ -37,7 +47,7 @@ export const projects = [
     tags: ["React", "Styled-Components", "Framer Motion"],
     source: "https://github.com/RacketyWater7/capture-business-profile",
     visit: "https://capture-business-portfolio.netlify.app/",
-    id: 3,
+    id: 4,
   },
   {
     title: "Creative Agency Website",
@@ -47,7 +57,7 @@ export const projects = [
     tags: ["HTML5", "CSS3", "JS"],
     source: "https://github.com/RacketyWater7/creative-agency-websit",
     visit: "https://priceless-edison-9e49bb.netlify.app/",
-    id: 4,
+    id: 5,
   },
   {
     title: "Teams Chat App",
@@ -57,7 +67,7 @@ export const projects = [
     tags: ["React", "JavaScript", "Socket.io"],
     source: "https://github.com/RacketyWater7/teams_chat_app",
     visit: "https://teams-chat-app.netlify.app/",
-    id: 5,
+    id: 6,
   },
 ];
 
@@ -74,6 +84,6 @@ export const TimeLineData = [
   },
   {
     year: 2021,
-    text: "Working as a React/Next.JS developer and writing technical articles",
+    text: "Making JavaScript, React/Next.JS apps and web browser extensions",
   },
 ];
