@@ -12,18 +12,15 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br />
-        My Personal Portfolio
+        HASEEB UDEEN
       </SectionTitle>
       <SectionText>
-        I am a professtional web developer. I build web applications and solve
-        web apps related issues. I write clean code following web apps
-        standards.
+        Highly accomplished Full Stack Engineer with a comprehensive background in architecting, designing, developing, and deploying high-performance web applications and scalable microservices.
       </SectionText>
       <Button
         onClick={() => (window.location = "mailto:haseebudeen@outlook.com")}
       >
-        Learn More
+        Contact Me
       </Button>
     </LeftSection>
   </Section>

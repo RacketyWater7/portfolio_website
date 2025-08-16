@@ -1,5 +1,4 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -15,32 +14,71 @@ import {
 } from "./TechnologiesStyles";
 
 const Technologies = () => (
-  <Section id="tech">
+  <Section id="skills">
     <SectionDivider />
     <br />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Skills</SectionTitle>
     <SectionText>
-      I've worked with a range of technologies in the web development world.
-      From Back-end To Design
+      A focused, modern toolkit across backend, frontend, cloud, DevOps, and testing to deliver reliable, scalable systems.
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="3rem" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Backend Development</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js and Next.js
+            <strong>Languages & Runtimes:</strong> NodeJS, NestJS, Express
+          </ListParagraph>
+          <ListParagraph>
+            <strong>Architecture:</strong> Microservices Architecture, GraphQL, Sockets
+          </ListParagraph>
+          <ListParagraph>
+            <strong>Database & Caching:</strong> MongoDB, Redis
+          </ListParagraph>
+          <ListParagraph>
+            <strong>Event Streaming:</strong> Kafka, Redpanda
           </ListParagraph>
         </ListContainer>
       </ListItem>
+
       <ListItem>
-        <DiFirebase size="3rem" />
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Frontend Development</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node.js, MongoDB, and SQL
+            <strong>Languages & Libraries:</strong> JavaScript/TypeScript, React JS, Next JS, Redux, Redux Toolkit, Context API, HTML5/CSS3
+          </ListParagraph>
+          <ListParagraph>
+            <strong>UI Frameworks & Styling:</strong> Material UI, Bootstrap, Tailwind, Framer Motion, Ant Design
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <ListContainer>
+          <ListTitle>Cloud Platforms</ListTitle>
+          <ListParagraph>AWS, Heroku, OpenShift</ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <ListContainer>
+          <ListTitle>DevOps & CI/CD</ListTitle>
+          <ListParagraph>
+            <strong>CI/CD Platforms:</strong> Jenkins, Buddy
+          </ListParagraph>
+          <ListParagraph>
+            <strong>Monitoring & Logging:</strong> Elastic Stack (ELK)
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <ListContainer>
+          <ListTitle>Testing</ListTitle>
+          <ListParagraph>
+            <strong>Frameworks:</strong> Jest, Playwright, Puppeteer, Cucumber
+          </ListParagraph>
+          <ListParagraph>
+            <strong>Methodologies:</strong> Unit Testing, End-to-End Automation Testing
           </ListParagraph>
         </ListContainer>
       </ListItem>

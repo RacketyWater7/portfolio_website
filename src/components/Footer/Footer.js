@@ -21,7 +21,7 @@ import {
 
 const Footer = () => {
   return (
-    <FooterWrapper>
+    <FooterWrapper id="contact">
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
@@ -32,6 +32,15 @@ const Footer = () => {
           <LinkItem href="mailto:haseebudeen@outlook.com">
             haseebudeen@outlook.com
           </LinkItem>
+        </LinkColumn>
+        <LinkColumn>
+          <LinkTitle>Contact Form</LinkTitle>
+          <form action="mailto:haseebudeen@outlook.com" method="post" encType="text/plain">
+            <input type="text" name="name" placeholder="Your Name" style={{padding: '8px', marginBottom: '8px', width: '100%', borderRadius: '6px', border: '1px solid rgba(255,255,255,0.1)', background: 'rgba(255,255,255,0.05)', color: '#fff'}} />
+            <input type="email" name="email" placeholder="Your Email" style={{padding: '8px', marginBottom: '8px', width: '100%', borderRadius: '6px', border: '1px solid rgba(255,255,255,0.1)', background: 'rgba(255,255,255,0.05)', color: '#fff'}} />
+            <textarea name="message" placeholder="How can I help?" rows={3} style={{padding: '8px', marginBottom: '8px', width: '100%', borderRadius: '6px', border: '1px solid rgba(255,255,255,0.1)', background: 'rgba(255,255,255,0.05)', color: '#fff'}} />
+            <button type="submit" style={{padding: '10px 16px', borderRadius: '20px', border: 'none', color: '#fff', background: 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)', cursor: 'pointer'}}>Send</button>
+          </form>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+	<defs>
+		<style>
+			.bg { fill: #0B1020; }
+			.accent { fill: #16B2AC; }
+			.text { fill: #ffffff; font-family: 'Space Grotesk', Arial, sans-serif; font-weight: 700; }
+		</style>
+	</defs>
+	<rect class="bg" width="64" height="64" rx="12"/>
+	<circle class="accent" cx="32" cy="32" r="22" opacity="0.15"/>
+	<text x="50%" y="54%" text-anchor="middle" font-size="30" class="text">H</text>
+</svg>
