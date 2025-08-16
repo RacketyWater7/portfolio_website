@@ -17,11 +17,12 @@ A modern, responsive personal portfolio website built with Next.js and React. Th
 
 ## 🛠️ Technologies Used
 
-- **Frontend Framework**: Next.js 10.2.3
-- **UI Library**: React 17.0.2
-- **Styling**: Styled Components
-- **Icons**: React Icons
+- **Frontend Framework**: Next.js 14.2.5
+- **UI Library**: React 18.2.0
+- **Styling**: Styled Components 5.3.11
+- **Icons**: React Icons 4.12.0
 - **Build Tool**: Next.js built-in bundler
+- **Package Manager**: Yarn 1.22.22
 
 ## 📁 Project Structure
 
@@ -45,7 +46,7 @@ src/
 
 ### Prerequisites
 
-- Node.js (version 14 or higher)
+- Node.js (version 20.x)
 - npm or yarn package manager
 
 ### Installation
