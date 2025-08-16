@@ -15,7 +15,7 @@ const Experience = () => {
 					<Period>May 2024 – Present</Period>
 					<Bullets>
 						<Bullet>Architected and developed highly scalable, fault-tolerant microservices-based event processors using Node.js and Kafka, enabling real-time, high-volume transaction processing (exceeding 10,000 transactions per second) for critical banking functions.</Bullet>
-						<Bullet>Led the migration of mission-critical backend systems from legacy SpringBoot to a modern Node.js event-driven architecture, improving system performance by 40%.</Bullet>
+						<Bullet>Led the migration of mission-critical backend systems from legacy SpringBoot to a modern Node.js event-driven architecture, improving system performance by up to 40%.</Bullet>
 						<Bullet>Engineered and optimized robust authentication and authorization functionalities for diverse financial transactions using Node.js, integrating advanced security protocols.</Bullet>
 					</Bullets>
 					<Tech>Technologies: Node.js, Kafka, Redis, Microservices Architecture, Elastic Stack (ELK), Unit Testing (Jest), End-to-End Automation Testing (Playwright), GraphQL.</Tech>
