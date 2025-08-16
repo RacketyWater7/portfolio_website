@@ -16,6 +16,7 @@ import {
   NavLink,
   SocialIcons,
   Span,
+  CtaLink,
 } from "./HeaderStyles";
 
 const Header = () => (
@@ -31,24 +32,29 @@ const Header = () => (
           }}
         >
           <DiCssdeck size="3rem" />
-          <Span>Portfolio</Span>
+          <Span>Haseeb Udeen</Span>
         </a>
       </Link>
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
+        <Link href="#profile">
+          <NavLink>Profile</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#tech">
-          <NavLink>Technologies</NavLink>
+        <Link href="#experience">
+          <NavLink>Experience</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
+        <Link href="#skills">
+          <NavLink>Skills</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href="#contact">
+          <CtaLink>Contact Me</CtaLink>
         </Link>
       </li>
     </Div2>

@@ -64,6 +64,21 @@ export const NavLink = styled.a`
   }
 `;
 
+export const CtaLink = styled.a`
+  font-size: 1.6rem;
+  line-height: 28px;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: linear-gradient(270deg, #13ADC7 0%, #945DD6 100%);
+  transition: 0.3s ease;
+  &:hover {
+    transform: translateY(-1px);
+    opacity: 0.95;
+    cursor: pointer;
+  }
+`;
+
 /// DropDown Contact
 export const ContactDropDown = styled.button`
   border: none;
