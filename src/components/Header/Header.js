@@ -22,18 +22,17 @@ import {
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
-        <a
-          style={{
-            display: "flex",
-            alignItems: "center",
-            color: "white",
-            marginBottom: "20px",
-          }}
-        >
-          <DiCssdeck size="3rem" />
-          <Span>Haseeb Udeen</Span>
-        </a>
+      <Link 
+        href="/"
+        style={{
+          display: "flex",
+          alignItems: "center",
+          color: "white",
+          marginBottom: "20px",
+        }}
+      >
+        <DiCssdeck size="3rem" />
+        <Span>Haseeb Udeen</Span>
       </Link>
     </Div1>
     <Div2>

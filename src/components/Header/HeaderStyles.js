@@ -49,7 +49,7 @@ export const Div3 = styled.div`
 `;
 
 // Navigation Links
-export const NavLink = styled.a`
+export const NavLink = styled.div`
   font-size: 2rem;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
@@ -64,7 +64,7 @@ export const NavLink = styled.a`
   }
 `;
 
-export const CtaLink = styled.a`
+export const CtaLink = styled.div`
   font-size: 1.6rem;
   line-height: 28px;
   color: #fff;

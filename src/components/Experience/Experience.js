@@ -56,6 +56,21 @@ const Experience = () => {
 					</Bullets>
 					<Tech>Skills & Technologies: React, Next.js, Redux, Redux Toolkit, Material-UI, Bootstrap, Git, CICD, Jenkins, JWT strategy, documentation writing.</Tech>
 				</TimelineItem>
+
+				<TimelineItem>
+					<TimelineDot />
+					<Role>FULL STACK DEVELOPER</Role>
+					<Company>Fleek Soft (Pakistan — On‑site)</Company>
+					<Period>January 2019 – March 2021</Period>
+					<Bullets>
+						<Bullet>Contributed to rapid application development (RAD) of multiple web projects using the MERN stack, focusing on speed, scalability, and code quality.</Bullet>
+						<Bullet>Developed and deployed full-stack web applications from concept to delivery, integrating RESTful APIs and ensuring high responsiveness and performance.</Bullet>
+						<Bullet>Designed and implemented dynamic React.js interfaces with reusable components and efficient state management using Redux.</Bullet>
+						<Bullet>Built and optimized Node.js backend services connected with MongoDB, ensuring secure and reliable data handling.</Bullet>
+						<Bullet>Collaborated with cross-functional teams in an Agile workflow, participating in daily standups, sprint reviews, and version control via Git.</Bullet>
+					</Bullets>
+					<Tech>Technologies: React, MERN, Nodejs, JavaScript, Tailwindcss, CSS3, Bootstrap, MongoDB.</Tech>
+				</TimelineItem>
 			</Timeline>
 		</ExperienceSection>
 	);
