@@ -17,8 +17,9 @@ const Experience = () => {
 						<Bullet>Architected and developed highly scalable, fault-tolerant microservices-based event processors using Node.js and Kafka, enabling real-time, high-volume transaction processing (exceeding 10,000 transactions per second) for critical banking functions.</Bullet>
 						<Bullet>Led the migration of mission-critical backend systems from legacy SpringBoot to a modern Node.js event-driven architecture, improving system performance by up to 40%.</Bullet>
 						<Bullet>Engineered and optimized robust authentication and authorization functionalities for diverse financial transactions using Node.js, integrating advanced security protocols.</Bullet>
+						<Bullet>Partnered with product and data teams to weave LangChain-orchestrated LLM copilots into internal servicing journeys, adding retrieval-augmented responses from bank-approved knowledge stores with strict guardrails.</Bullet>
 					</Bullets>
-					<Tech>Technologies: Node.js, Kafka, Redis, Microservices Architecture, Elastic Stack (ELK), Unit Testing (Jest), End-to-End Automation Testing (Playwright), GraphQL.</Tech>
+					<Tech>Technologies: Node.js, Kafka, Redis, Microservices Architecture, LangChain, Azure OpenAI (LLMs), Elastic Stack (ELK), Unit Testing (Jest), End-to-End Automation Testing (Playwright), GraphQL.</Tech>
 				</TimelineItem>
 
 				<TimelineItem>

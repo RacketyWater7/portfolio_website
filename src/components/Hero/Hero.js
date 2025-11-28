@@ -15,7 +15,7 @@ const Hero = (props) => (
         HASEEB UDEEN
       </SectionTitle>
       <SectionText>
-        Highly accomplished Full Stack Engineer with a comprehensive background in architecting, designing, developing, and deploying high-performance web applications and scalable microservices.
+        Highly accomplished Full Stack Engineer with a comprehensive background in architecting, designing, developing, and deploying high-performance web applications and scalable microservices, including regulated LLM and LangChain integrations.
       </SectionText>
       <Button
         onClick={() => (window.location = "mailto:haseebudeen@outlook.com")}
